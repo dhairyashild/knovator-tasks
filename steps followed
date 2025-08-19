@@ -1,0 +1,92 @@
+
+sudo apt update && sudo apt upgrade -y
+sudo apt install nginx php-fpm php-mysql php-xml php-mbstring git unzip -y
+
+
+1. Prepare EC2 App Server
+2. Provision RDS MySQL and Connect to EC2
+
+
+
+
+
+## Here are the detailed steps and commands for creating a new Laravel project on your Ubuntu EC2 instance:
+Step 1: Install Composer (if not installed)
+
+sudo apt update
+sudo apt install curl php-cli php-mbstring unzip zip php-xml php-bcmath php-curl php-mysql -y
+curl -sS https://getcomposer.org/installer | php
+sudo mv composer.phar /usr/local/bin/composer
+composer --version
+
+
+
+
+
+Step 2: Create a New Laravel Project
+Choose a directory for your Laravel project under /var/www, for example myapp
+
+sudo mkdir -p /var/www/myapp
+sudo chown -R ubuntu:ubuntu /var/www/myapp
+cd /var/www
+composer create-project laravel/laravel myapp
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
