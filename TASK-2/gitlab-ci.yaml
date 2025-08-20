@@ -1,8 +1,10 @@
+########   TRY BELOW IP TO CHECK JAVA  BASED APP DEPLOYED 
+########    http://52.66.235.163/
+
 stages:
   - build
   - docker_build
   - docker_push
-
 build:
   stage: build
   script:
@@ -17,8 +19,9 @@ docker_build:
   script:
     - ls -l
     - docker images
-    - docker build -t dhairyashil/knovator:4 .
+    - docker build -t dhairyashil/knovator:6 .
     - docker image prune 
+    - docker images
   tags:
     - runner1
 
@@ -28,8 +31,12 @@ docker_push:
   stage: docker_push
   script:
     - echo "$DOCKERHUB_PASSWORD" | docker login -u "$DOCKERHUB_USERNAME" --password-stdin
-    - docker push dhairyashil/knovator:4 
+    - docker push dhairyashil/knovator:6
+    - docker run -d -p 80:8080 dhairyashil/knovator:6 
   tags:
     - runner1
-  needs:
-    - docker_build
+
+ 
+########   TRY BELOW IP TO CHECK JAVA  BASED APP DEPLOYED 
+########    http://52.66.235.163/
+
