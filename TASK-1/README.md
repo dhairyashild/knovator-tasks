@@ -1,5 +1,7 @@
-RAECT FRONTEND: http://3.110.105.229/                                             *************************
-NODEJS BACKEND: http://3.110.105.229/api/                                         *************************
+RAECT FRONTEND: http://3.110.105.229/                       
+
+                    
+NODEJS BACKEND: http://3.110.105.229/api/                                       
 
 
 ## Overview
