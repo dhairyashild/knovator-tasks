@@ -19,7 +19,7 @@ data "aws_ami" "ubuntu" {
 
 resource "aws_instance" "ubuntu_ec2" {
   ami           = data.aws_ami.ubuntu.id
-  instance_type = "t2.micro"  # Choose instance type as needed
+  instance_type = "t2.small"  # Choose instance type as needed
 
   key_name = "project"  # Replace with your actual EC2 key pair name
 subnet_id = aws_subnet.project-pub-sub-1.id
