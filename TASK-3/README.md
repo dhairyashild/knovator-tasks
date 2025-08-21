@@ -13,7 +13,7 @@ This project hosts a distributed setup for a Laravel application, designed with 
 
 - **Web Server:** Handles HTTP requests.
 - **PHP-FPM:** Executes PHP code efficiently.
-- **Redis:** Provides caching and session management.
+- **Redis:** Provides caching 
 - **MySQL:** Serves as the relational database.
 
 ---
@@ -21,7 +21,7 @@ This project hosts a distributed setup for a Laravel application, designed with 
 ## Architecture Highlights
 
 - **Web Server & PHP-FPM:** Separate layers for handling requests and PHP processing, enabling horizontal scaling.
-- **Redis:** Caching and session management for improved performance and reduced database load.
+- **Redis:** Caching for improved performance and reduced database load.
 - **MySQL:** Primary database with read replicas for load balancing and backups for data safety.
 
 ---
