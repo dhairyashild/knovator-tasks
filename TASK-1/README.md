@@ -1,4 +1,3 @@
-CHECK BELOW IP ON BROWSER                                                         *************************
 RAECT FRONTEND: http://3.110.105.229/                                             *************************
 NODEJS BACKEND: http://3.110.105.229/api/                                         *************************
 
