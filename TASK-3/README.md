@@ -1,5 +1,12 @@
 # Distributed Laravel Application Setup
 
+## Access the Application
+
+The Laravel application can be accessed securely via the domain:  
+[https://desai-devops.info](https://desai-devops.info)
+
+---
+
 ## Overview
 
 This project hosts a distributed setup for a Laravel application, designed with security, scalability, and cost-effectiveness in mind. The application architecture separates key components for improved performance and maintainability:
