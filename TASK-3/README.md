@@ -15,7 +15,6 @@ This project hosts a distributed setup for a Laravel application, designed with 
 - **PHP-FPM:** Executes PHP code efficiently.
 - **Redis:** Provides caching and session management.
 - **MySQL:** Serves as the relational database.
-- **ElasticSearch:** Supports advanced search capabilities.
 
 ---
 
@@ -24,7 +23,6 @@ This project hosts a distributed setup for a Laravel application, designed with 
 - **Web Server & PHP-FPM:** Separate layers for handling requests and PHP processing, enabling horizontal scaling.
 - **Redis:** Caching and session management for improved performance and reduced database load.
 - **MySQL:** Primary database with read replicas for load balancing and backups for data safety.
-- **ElasticSearch:** Distributed search engine enhancing search capabilities and performance.
 
 ---
 
