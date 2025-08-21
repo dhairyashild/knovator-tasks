@@ -30,9 +30,9 @@ This project dockerizes a full-stack Node.js and ReactJS application using **mul
 6. **Access your app:**  
    - The application is reachable via the server's IP or domain on configured ports.
      
-FRONTEND: http://3.110.105.229/api/
+FRONTEND: http://3.110.105.229/
 
-BACKEND: http://3.110.105.229/
+BACKEND: http://3.110.105.229/api/
 
 
 ## Benefits
