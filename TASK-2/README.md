@@ -5,7 +5,7 @@
 This project sets up a GitLab CI/CD pipeline that automates building, Dockerizing, and deploying a Java-based application securely to a server via a self-hosted GitLab runner on a VM.
 
 The application is exposed on port 80 and can be accessed at:  
-`http://52.66.235.163/`
+http://52.66.235.163/
 
 ---
 
